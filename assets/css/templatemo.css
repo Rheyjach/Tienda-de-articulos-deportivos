@@ -1,0 +1,141 @@
+/* Typography */
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+/* General */
+.logo { font-weight: 500 !important;}
+.text-warning { color: #ede861 !important;}
+.text-muted { color: #bcbcbc !important;}
+.text-success { color: #4682B4 !important; }
+.text-light { color: #ffffff !important; }
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #1d242d !important;}
+.bg-success { background-color: #4682B4 !important; }
+.btn-success {
+  background-color: #4682B4 !important;
+  border-color: #4682B4 !important;
+}
+.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #4682B4;
+  color: #ffffff;
+}
+/* Nav */
+#templatemo_nav_top { min-height: 40px;}
+#templatemo_nav_top * { font-size: .9em !important;}
+#templatemo_main_nav a { color: #212934; }
+#templatemo_main_nav a:hover { color: #4682B4; }
+#templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { background: #efefef !important;}
+
+/* Accordion */
+.templatemo-accordion a { color: #000;}
+.templatemo-accordion a:hover { color: #333d4a;}
+
+/* Shop */
+.shop-top-menu a:hover { color: #4682B4 !important;}
+
+/* Product */
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #4682B4;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #4682B4 !important;
+  font-size: 2.8em !important;
+}
+
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+
+/* Services */
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #ffffff;}
+.services-icon-wap:hover {background: #4682B4;}
+
+/* Contact map */
+.leaflet-control a, .leaflet-control { font-size: 10px !important;}
+.form-control { border: 1px solid #e8e8e8;}
+
+/* Footer */
+#templatemo_footer {
+  background-color: #4682B4 !important; /* Azul como fondo */
+}
+
+#templatemo_footer .container,
+#templatemo_footer .row,
+#templatemo_footer .col-md-4,
+#templatemo_footer .col-auto {
+  background-color: transparent; /* Aseguramos que no se sobreescriba con un color diferente */
+}
+
+#templatemo_footer a {
+  color: #ffffff !important; /* Enlaces en blanco */
+}
+
+#templatemo_footer a:hover {
+  color: #cfd6e1 !important; /* Color de los enlaces al pasar el cursor */
+}
+
+#templatemo_footer .text-light {
+  color: #ffffff !important; /* Asegura que el texto se vea blanco */
+}
+
+#templatemo_footer .btn-success {
+  background-color: #5cb85c; /* Ajusta el color de los botones si es necesario */
+  color: #ffffff !important; /* Asegura que el texto de los botones sea blanco */
+}
+/* Responsive Adjustments */
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+}
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+}
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {max-width: 550px;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+@media (min-width: 1200px) {}
